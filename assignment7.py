@@ -46,3 +46,4 @@ for index, row in data_2012.iterrows():
     predicted_playoffs = "Made Playoffs" if y_pred_2012[index - data_2012.index[0]] == 1 else "Did not make Playoffs"
     actual_playoffs = "Made Playoffs" if y_actual_2012[index] == 1 else "Did not make Playoffs"
     print(f"{team_name}: Predicted - {predicted_playoffs}, Actual - {actual_playoffs}")
+print ("Go Brewers!")
